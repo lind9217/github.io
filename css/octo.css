@@ -134,8 +134,8 @@ body {
 }
 
 h1 {
-    font-size: 2.2em;
-    line-height: 1.2em
+    font-size: 1.5em;
+    line-height: 1em;
 }
 
 @media only screen and (min-width: 992px) {
@@ -391,13 +391,14 @@ body {
 
 body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
     padding-left: 18px;
-    padding-right: 18px
+    padding-right: 18px;
 }
 
 @media only screen and (min-width: 480px) {
     body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 25px;
-        padding-right: 20px
+        padding-right: 20px;
+        margin: 0 40px;
     }
 }
 
@@ -1044,7 +1045,8 @@ article header {
 }
 
 article header h1 {
-    margin: 0
+    margin: 0;
+    font-size: 1.6em;
 }
 
 article header h1 a {
