@@ -5,6 +5,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
+    font-family: Helvetica;
 }
 
 html {
@@ -1169,7 +1170,7 @@ article > footer p.meta {
 }
 
 #content .blog-index article h1 {
-    font-size: 1.8em
+    font-size: 1.5em
 }
 
 #content .blog-index article h1 a {
