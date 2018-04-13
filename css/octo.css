@@ -1069,6 +1069,8 @@ article header {
 article header h1 {
     margin: 0;
     font-size: 1.6em;
+    line-height:32px;
+
 }
 
 article header h1 a {
