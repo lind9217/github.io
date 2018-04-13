@@ -45,7 +45,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 a {
-    color: #1863a1
+    color: #555555
 }
 
 a:visited {
@@ -57,11 +57,11 @@ a:focus {
 }
 
 a:hover {
-    color: #0181eb
+    color: #E30A21
 }
 
 a:active {
-    color: #01579f
+    color: #E30A21
 }
 
 aside.sidebar a {
@@ -1147,7 +1147,7 @@ article > footer {
 }
 
 article > footer p.meta {
-    margin-bottom: .8em;
+    margin-bottom: .4em;
     font-size: .85em;
     clear: both;
     overflow: hidden
@@ -1180,7 +1180,7 @@ article > footer p.meta {
 }
 
 #content .blog-index article h1 a:hover {
-    color: #0181eb
+    color: #E30A21
 }
 
 #content .blog-index a[rel=full-article] {
@@ -1197,7 +1197,7 @@ article > footer p.meta {
 }
 
 #content .blog-index a[rel=full-article]:hover {
-    background: #0181eb;
+    background: #E30A21;
     text-shadow: none;
     color: #f8f8f8
 }
