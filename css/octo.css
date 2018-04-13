@@ -4,7 +4,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 0;
     font: inherit;
     font-size: 100%;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 html {
@@ -93,12 +93,10 @@ html {
 
 body > div {
     background: #f2f2f2 url('/images/noise.png?1416136272') top left;
-    border-bottom: 1px solid #bfbfbf
 }
 
 body > div > div {
     background: #F8F8F8 url('/images/noise.png?1416136272') top left;
-    border-right: 1px solid #e0e0e0
 }
 
 .heading, body > header h1, h1, h2, h3, h4, h5, h6 {
@@ -548,7 +546,7 @@ body.sidebar-footer .toggle-sidebar {
     }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 640px) {
     aside.sidebar {
         float: none;
         width: auto;
@@ -583,7 +581,7 @@ body.sidebar-footer .toggle-sidebar {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 640px) {
     body {
         -webkit-text-size-adjust: auto
     }
@@ -593,15 +591,17 @@ body.sidebar-footer .toggle-sidebar {
     }
 
     #main {
-        padding: 12;
-        margin: 12 auto;
+        padding: 0;
+        margin: 0 auto;
         box-shadow: 0  10px 20px 10px rgba(0, 0, 0, .15);
+        margin: 0 40px;
     }
 
     #content {
         overflow: visible;
         margin-right: 240px;
-        position: relative
+        position: relative;
+        padding: 0 40px;
     }
 
     .no-sidebar #content {
@@ -710,13 +710,15 @@ body > header {
 
 body > header h1 {
     display: inline-block;
-    margin: 0;
+    margin: 20px 0 0 0;
 }
 
 body > header h1 a, body > header h1 a:visited, body > header h1 a:hover {
     /*color: #f2f2f2;*/
     color: #000;
     text-decoration: none;
+    letter-spacing:.1em;
+    font-family: Helvetica Neue;
 }
 
 body > header h2 {
@@ -724,7 +726,9 @@ body > header h2 {
     font-size: 1em;
     color: #aaa;
     font-weight: normal;
-    word-spacing:1em;
+    letter-spacing:.1em;
+    margin: 5px 0 5px 0;
+    font-family: Helvetica Neue;
 }
 
 body > nav {
@@ -737,8 +741,8 @@ body > nav {
     background: url('/images/noise.png?1416136272'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);*/
     border-top: 1px solid #f2f2f2;
     /*border-bottom: 1px solid #8c8c8c;*/
-    padding-top: .35em;
-    padding-bottom: .35em
+    padding-top: .5em;
+    padding-bottom: .5em
 }
 
 body > nav form {
@@ -784,7 +788,9 @@ body > nav form .search:focus {
 
 body > nav fieldset[role=search] {
     float: right;
-    width: 48%
+    width: 48%;
+    display: none;
+    
 }
 
 body > nav fieldset.mobile-nav {
@@ -808,14 +814,15 @@ body > nav ul {
     }
 
     body > nav ul {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         border: 0;
         overflow: hidden;
         *zoom: 1;
-        float: left;
+        /* float: left; */
         display: block;
-        padding-top: .15em
+        padding-top: .3em;
+        width: 600px;
     }
 
     body > nav ul li {
@@ -823,6 +830,7 @@ body > nav ul {
         list-style-type: none;
         margin-left: 0;
         white-space: nowrap;
+        letter-spacing: nowrap;
         display: inline;
         float: left;
         padding-left: 0;
@@ -1213,7 +1221,8 @@ article > footer p.meta {
 
 #content div.pagination a {
     text-decoration: none;
-    color: #aaa
+    color: #aaa;
+    font-size: 12px;
 }
 
 #content div.pagination a.next {
