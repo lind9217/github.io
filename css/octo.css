@@ -796,8 +796,30 @@ body > nav fieldset[role=search] {
 
 body > nav fieldset.mobile-nav {
     float: left;
-    width: 48%
+    width: 100%
 }
+
+/* 修改菜单下拉框样式20180413 */
+body > nav fieldset.mobile-nav {
+    float: left;
+    width: 100%;
+}
+body > nav fieldset.mobile-nav ul {
+    width: 100%;
+    font-size: 1.2em;
+    display: block;
+    margin: 15px;
+}
+body > nav fieldset.mobile-nav ul li{
+    width: 50%;
+    display: inline-block;
+    list-style: none;
+}
+body > nav fieldset.mobile-nav ul li a{
+    text-decoration: none;
+    color: #414141;
+}
+
 
 body > nav fieldset.mobile-nav select {
     width: 100%;

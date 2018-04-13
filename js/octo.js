@@ -1,10 +1,12 @@
 function getNav() {
     var mainNav = $('ul.main-navigation, ul[role=main-navigation]').before('<fieldset class="mobile-nav">')
-    var mobileNav = $('fieldset.mobile-nav').append('<select>');
-    mobileNav.find('select').append('<option value="">Navigate&hellip;</option>');
-    var addOption = function(i, option) {
-        mobileNav.find('select').append('<option value="' + this.href + '">&raquo; ' + $(this).text() + '</option>');
-    }
+    var mobileNav = $('fieldset.mobile-nav').append('<ul><li><a href=" ">呆呆.FM</a ></li><li><a href="https://twitter.com/JayssiYang">订阅《呆呆邮报》</a ></li></ul>');
+    //仅保留两个menu，如需展示所有menu，注释上行代码
+    //仅保留两个menu，如果需要展示所有menu将以下代码还原
+    // var mobileNav = $('fieldset.mobile-nav').append('<ul>');
+    // var addOption = function(i, li) {
+    //     mobileNav.find('ul').append('<li><a href="'+ this.href +'">' + $(this).text() + '</a ></li>');
+    // }
     mainNav.find('a').each(addOption);
     $('ul.subscription a').each(addOption);
     mobileNav.find('select').bind('change', function(event) {
