@@ -176,7 +176,9 @@ h6, section h5, section section h4, section section section h3 {
 }
 
 p, article blockquote, ul, ol {
-    margin-bottom: 1.5em
+    margin-bottom: 1.5em;
+    font-size: .9em;
+    color:#555555;
 }
 
 ul {
@@ -275,7 +277,7 @@ abbr, acronym {
 }
 
 hr {
-    margin-bottom: 0.2em
+    margin-bottom: 1em
 }
 
 small {
@@ -1070,6 +1072,7 @@ article header h1 {
     margin: 0;
     font-size: 1.5em;
     line-height: 1.5em;
+    color:#222222;
 
 }
 
