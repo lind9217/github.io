@@ -806,7 +806,7 @@ body > nav fieldset.mobile-nav {
 }
 body > nav fieldset.mobile-nav ul {
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.1em;
     display: block;
     margin: 15px;
 }
@@ -1068,8 +1068,8 @@ article header {
 
 article header h1 {
     margin: 0;
-    font-size: 1.6em;
-    line-height:32px;
+    font-size: 1.5em;
+    line-height: 1.5em;
 
 }
 
@@ -1196,7 +1196,7 @@ article > footer p.meta {
 }
 
 #content .blog-index article h1 {
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 
 #content .blog-index article h1 a {
