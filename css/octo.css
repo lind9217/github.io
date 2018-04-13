@@ -722,12 +722,11 @@ body > header h1 a, body > header h1 a:visited, body > header h1 a:hover {
 }
 
 body > header h2 {
-    margin: .3em 0 0 0;
-    font-size: 1em;
+    margin: 10px 0 5px 0;
+    font-size: 0.8em;
     color: #aaa;
     font-weight: normal;
     letter-spacing:.1em;
-    margin: 5px 0 5px 0;
     font-family: Helvetica Neue;
 }
 
