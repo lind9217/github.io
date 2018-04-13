@@ -126,7 +126,7 @@ body > header h1 {
 }
 
 body > header h2 {
-    font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif
+    font-family: "Georgia", "Helvetica Neue", Arial, sans-serif
 }
 
 body {
@@ -593,8 +593,9 @@ body.sidebar-footer .toggle-sidebar {
     }
 
     #main {
-        padding: 0;
-        margin: 0 auto
+        padding: 12;
+        margin: 12 auto;
+        box-shadow: 0  10px 20px 10px rgba(0, 0, 0, .15);
     }
 
     #content {
@@ -709,20 +710,21 @@ body > header {
 
 body > header h1 {
     display: inline-block;
-    margin: 0
+    margin: 0;
 }
 
 body > header h1 a, body > header h1 a:visited, body > header h1 a:hover {
     /*color: #f2f2f2;*/
     color: #000;
-    text-decoration: none
+    text-decoration: none;
 }
 
 body > header h2 {
-    margin: .2em 0 0;
+    margin: .3em 0 0 0;
     font-size: 1em;
     color: #aaa;
-    font-weight: normal
+    font-weight: normal;
+    word-spacing:1em;
 }
 
 body > nav {
@@ -885,7 +887,8 @@ body > nav ul {
         float: right;
         text-align: left;
         padding-left: .8em;
-        width: 175px
+        width: 175px;
+        display: none;
     }
 
     body > nav form .search {
