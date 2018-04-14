@@ -1833,7 +1833,8 @@ figure.code .highlight {
 
 #blog-archives h1 {
     color: #222;
-    margin-bottom: .3em
+    margin-bottom: .3em;
+    line-height: 1.5em;
 }
 
 #blog-archives h2 {
@@ -1841,7 +1842,7 @@ figure.code .highlight {
 }
 
 #blog-archives h1 {
-    font-size: 1.5em
+    font-size: 1em
 }
 
 #blog-archives h1 a {
@@ -1856,7 +1857,7 @@ figure.code .highlight {
 }
 
 #blog-archives h1 a:hover {
-    color: #0181eb
+    color: #E30A21
 }
 
 #blog-archives a.category, #blog-archives time {
@@ -1918,7 +1919,7 @@ figure.code .highlight {
         position: absolute;
         text-align: right;
         left: 0em;
-        top: 1.8em
+        top: 1.4em;
     }
 
     #blog-archives .year {
