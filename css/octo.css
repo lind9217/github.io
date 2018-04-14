@@ -1849,7 +1849,8 @@ figure.code .highlight {
     text-decoration: none;
     color: inherit;
     font-weight: normal;
-    display: inline-block
+    display: inline-block;
+    font-size: 1em
 }
 
 #blog-archives h1 a:hover {
