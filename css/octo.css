@@ -160,7 +160,7 @@ h2, section h1 {
 }
 
 h3, section h2, section section h1 {
-    font-size: 1.1em
+    font-size: 1em;
 }
 
 h4, section h3, section section h2, section section section h1 {
@@ -177,8 +177,10 @@ h6, section h5, section section h4, section section section h3 {
 
 p, article blockquote, ul, ol {
     margin-bottom: 1.5em;
+    margin: 0 0 2.2rem;
     font-size: .9em;
     color:#555555;
+    line-height:1.88em;
 }
 
 ul {
@@ -406,7 +408,7 @@ body > header, body > nav, body > footer, body #content > article, body #content
 
 @media only screen and (min-width: 768px) {
     body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
-        padding-left: 35px;
+        padding-left: 25px;
         /*padding-right: 35px*/
     }
 }
@@ -847,7 +849,7 @@ body > nav ul {
         /* float: left; */
         display: block;
         padding-top: .3em;
-        width: 600px;
+        width: 470px;
     }
 
     body > nav ul li {
